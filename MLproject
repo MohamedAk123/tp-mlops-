@@ -1,0 +1,4 @@
+﻿name: tp-mlops
+entry_points:
+  main:
+    command: "python pipeline.py"

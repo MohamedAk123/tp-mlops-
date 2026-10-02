@@ -1,0 +1,14 @@
+preparation:
+  test_size: 0.25
+  random_state: 42
+entrainement:
+  n_estimators: 300
+  max_depth: 12
+validation:
+  seuil_f1: 0.82
+defi:
+  taille_max_mo: 2.0
+  latence_max_ms: 11     # a remplacer par VOTRE latence / 3
+defi:
+  taille_max_mo: 2.0
+  latence_max_ms: 11
